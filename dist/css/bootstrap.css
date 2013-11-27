@@ -1704,7 +1704,7 @@ output {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: #e6e6e6;
 }
 textarea.form-control {
   height: auto;
@@ -1978,8 +1978,8 @@ textarea.input-lg {
 fieldset[disabled] .btn {
   cursor: not-allowed;
   pointer-events: none;
-  opacity: 0.65;
-  filter: alpha(opacity=65);
+  opacity: 0.45;
+  filter: alpha(opacity=45);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -2235,7 +2235,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #999999;
+  color: #e6e6e6;
   text-decoration: none;
 }
 .btn-lg {
@@ -2980,7 +2980,7 @@ input[type="button"].btn-block {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #999999;
+  color: #e6e6e6;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -3446,11 +3446,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #eeeeee;
 }
 .nav > li.disabled > a {
-  color: #999999;
+  color: #e6e6e6;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #999999;
+  color: #e6e6e6;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
@@ -4235,7 +4235,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #999999;
+  color: #e6e6e6;
   background-color: #ffffff;
   border-color: #dddddd;
   cursor: not-allowed;
@@ -4324,7 +4324,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #999999;
+  color: #e6e6e6;
   background-color: #ffffff;
   cursor: not-allowed;
 }
